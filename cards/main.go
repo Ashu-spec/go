@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var card string = "Ace Of Spades"
-	fmt.Println(card)
+	cards := []string{"Even Newer String", "Hell Yah", newCard()}
+	fmt.Println(cards)
+}
+func newCard () string {
+	return "New String"
 }
